@@ -1,7 +1,38 @@
 .header{
-    color: red;
-
-    &__text {
-        color: green;
+    
+    &__container {
+        padding: 20px 30px;
     }
+    &__menu {
+        display: flex;
+        /* width: 100%; */
+        align-items: center;
+        /* justify-content: space-around; */
+        
+        & ul {
+            display: flex;
+            justify-content:space-between;
+            width:60%;
+            align-items:center;
+
+            & li{
+                font-family: Avenir;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 18px;                
+            }
+        }
+
+        & .header__right {
+
+            display: flex;
+            width:100%;
+            justify-content: space-around;
+            align-items: center;
+            padding-left:100px;
+
+        }
+    }
+
 }

@@ -13,6 +13,7 @@
     src: url(../../fonts/AvenirLTStd-Book.otf);
     font-weight: 300; 
   }
+  
   @font-face {
     font-family: "Avenir LT std";
     src: url(../../fonts/AvenirLTStd-Medium.otf);
@@ -23,17 +24,20 @@
     src: url(../../fonts/AvenirLTStd-Black.otf);
     font-weight: 700;
     }
-  @font-face {
+
+    @font-face {
       font-family: "Avenir LT std";
       font-weight: 900;
       src: url(../../fonts/AvenirLTStd-Heavy.otf);
     }
-  * {
+
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
-  html {
+    
+    html {
         font-size: 12px;
         margin: 0;
         padding: 0;
@@ -41,40 +45,9 @@
         font-family: "Sofia Pro";
         font-family: "Montserrat", sans-serif; 
     }
-  a {
+    a {
         text-decoration: none;
     }
-  li {
+    li {
       list-style-type: none;
     }
-  .header__container {
-        padding: 20px 30px;
-    }
-  .header__menu {
-        display: flex;
-        /* width: 100%; */
-        align-items: center;
-    }
-  /* justify-content: space-around; */
-  .header__menu ul {
-            display: flex;
-            justify-content:space-between;
-            width:60%;
-            align-items:center;
-        }
-  .header__menu ul li{
-                font-family: Avenir;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 15px;
-                line-height: 18px;                
-            }
-  .header__menu .header__right {
-
-            display: flex;
-            width:100%;
-            justify-content: space-around;
-            align-items: center;
-            padding-left:100px;
-
-        }
