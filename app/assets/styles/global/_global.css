@@ -51,3 +51,78 @@
     li {
       list-style-type: none;
     }
+    p {
+      font-family: Avenir LT Std;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 18px;       
+    }
+    .orange__btn {
+      padding: 10px 30px;
+      border-radius: 24px;
+      background: #ED8F20;
+      border: 1px solid #ED8F20;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 140.6%;
+      color: #FFFFFF;
+      
+      &.large {
+        /* width: 200px; */
+        display:flex;
+        align-items:center
+      }
+    }
+    .purple__btn {
+      padding: 10px 30px;
+      border-radius: 24px;
+      background: linear-gradient(224.92deg, #89D746 39.1%, #70C228 66.42%);
+      border-radius: 32px;     
+      /* border: 1px solid #ED8F20; */
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 40.6%;
+      color: #FFFFFF;
+      text-align: center;
+            
+    }
+    .btn__flex {
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      width: 30px;
+      height: 30px; 
+      border-radius: 50%; 
+      background: white;
+      margin-left:6px; 
+      
+      & img {
+        width: 50%;
+      }
+    }
+    input {
+      outline: none;
+      border: none;
+    }
+    .hero__title {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 19px;
+      line-height: 23px;
+      color: #EF771D;      
+    }
+    .hero__text {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 34px;
+      line-height: 41px;
+      
+      color: #484646;      
+    }

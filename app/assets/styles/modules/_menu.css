@@ -1,0 +1,43 @@
+.menu {
+    text-align: center;
+
+    &__card {
+        display: flex;
+        justify-content:space-between;
+        padding:50px 0px;
+
+        &> div {
+            width: 31%;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.1);
+            border-radius: 2px;  
+            padding: 20px 0px;
+            
+            
+        }
+    }
+    &__description {
+        text-align: left;
+        padding: 24px 28px;
+        & h1 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 23px;
+            line-height: 28px;
+            color: #484646;            
+        }
+
+        & p {
+            text-align: left;
+            font-family: Avenir LT Std;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 114.3%;
+            letter-spacing: 0.06em;            
+            color: #2B434E; 
+            padding:20px 0px 0px;           
+        }
+    }
+}
